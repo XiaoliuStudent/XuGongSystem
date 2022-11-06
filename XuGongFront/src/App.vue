@@ -72,9 +72,9 @@
 
 
         <div :style="{ padding: '24px', background: '#ffffff', margin: '0 auto', width: '100%'}">
-          <router-link to="/admin/about" style="width: 100%;  margin: 0 auto; text-align: center; color: #b1b3b8">
+          <a href="https://note.youdao.com/s/87aq1now" style="width: 100%;  margin: 0 auto; text-align: center; color: #b1b3b8" target="_blank">
             20计转本 班级日常事务管理系统 2022 Created by 秋后的奶茶队.
-          </router-link>
+          </a>
         </div>
       </div>
     </a-layout>

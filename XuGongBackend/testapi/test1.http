@@ -1,0 +1,49 @@
+
+###
+# 针对核酸做api测试
+GET http://127.0.0.1:8085/api/hesuan/historydoc
+
+###
+GET http://127.0.0.1:8085/api/hesuan/userlist?class_name=20计转本&doc_url=https://docs.qq.com/sheet/DZlpnVk9BeUphUXpw?groupUin=Qa9QQ%252B2rf%252B%252Bj1BvTbWLlPg%253D%253D&tab=BB08J2
+
+###
+POST http://127.0.0.1:8085/api/hesuan/sendmail
+Content-Type: application/json
+
+{"objects": [20090102139]}
+
+
+
+###
+# 针对学生签到做api测试
+GET http://127.0.0.1:8085/api/singin/singin?student_id=20090102139&singin_id=20221021001
+Content-Type: application/json
+
+
+###
+POST http://127.0.0.1:8085/api/singin/singin
+Content-Type: application/json
+
+{"student_id": 20090102139,"singin_id": 20221021001}
+
+
+
+
+###
+# 针对学生上传文件做api测试
+GET http://127.0.0.1:8085/api/uploadfile/uploadfile?student_id=20090102139&work_id=20221022001
+Content-Type: application/json
+
+
+###
+POST http://127.0.0.1:8085/api/singin/singin
+Content-Type: application/json
+
+{"student_id": 20090102139,"singin_id": 20221021001}
+
+
+
+###
+# 针对电子表格提供相关的api测试
+GET http://127.0.0.1:8085/api/docsheet/students
+Content-Type: application/json

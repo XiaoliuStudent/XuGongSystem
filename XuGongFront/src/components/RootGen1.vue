@@ -1,6 +1,6 @@
 <template>
   <el-image style="width: 60%; height: 60%; margin-top: 0px"
-            src="/public/IndexMain.png" fit="contain"/>
+            src="/IndexMain.png" fit="contain"/>
   <p/>
   <h2>20计转本 班级日常事务管理系统 正在开发中</h2>
 

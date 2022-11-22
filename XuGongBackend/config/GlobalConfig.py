@@ -29,10 +29,10 @@ globalConfig = {
 
 def get():
     hostname = socket.gethostname()
-    if hostname == "MagicBook":
-        return globalConfig['dev']
-    elif hostname == "hyserver1":
+    if hostname == "hyserver1":
         return globalConfig['product']
+    else:
+        return globalConfig['dev']
 
 
 def set(config_key, config_value):
